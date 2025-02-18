@@ -11,6 +11,14 @@ const firebaseConfig = {
   appId: "1:303685066864:web:2eb69cf06b9c9615e494b5",
   measurementId: "G-N0ZVKSBCT9"
 };
+// const firebaseConfig = {
+//   apiKey: "AIzaSyCC_5ifJFKjz7dIfEK_7W3q6i95hD4Gjis",
+//   authDomain: "chat-9ddc1.firebaseapp.com",
+//   projectId: "chat-9ddc1",
+//   storageBucket: "chat-9ddc1.firebasestorage.app",
+//   messagingSenderId: "816015555011",
+//   appId: "1:816015555011:web:85b48dbc8f56f98bf6a576"
+// };
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
